@@ -3,22 +3,18 @@
 #include <time.h>
 
 /**
- * main - Prints a random number and states
- *        whether it is positive, zero, or negative.
- *
- * Return: Always 0 .
+ * main - main block
+ * Prints a random number and states
+ * whether it is positive, zero, or negative.
+ * Return:  0 .
  */
-
- int main(void)
-
- {
+int main(void)
+{
 	int n;
 
 	srand(time(0));
-	
 	n = rand() - RAND_MAX / 2;
 
-	
 	if (n > 0)
 	   
 		printf("%d is positive\n", n);
