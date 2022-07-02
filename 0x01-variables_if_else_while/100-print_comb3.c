@@ -4,7 +4,7 @@
 /**
  * main- Entry point
  * Description: possible combinations of  two digits
- * Return: 0 success
+ * Return: (0) success
  */
 int main(void)
 {
@@ -18,7 +18,7 @@ int main(void)
 			{
 				putchar(i);
 				putchar(j);
-				if ((j < ''9') | (i < '8'))
+				if ((j < '9') | (i < '8'))
 				{
 					putchar(',');
 					putchar(' ');

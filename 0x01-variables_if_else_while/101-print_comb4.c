@@ -4,7 +4,7 @@
 /**
  * main- Entry point
  * Description: Combination of three digits
- * Return: 0 success
+ * Return: (0) success
  */
 int main(void)
 {
@@ -14,7 +14,7 @@ int main(void)
 	{
 		for (j ='0'; j <= '9'; j++)
 		{
-			for (k = '0'; k <= ''9'; k++)
+			for (k = '0'; k <= '9'; k++)
 			{
 				if ((i < j) & (j < k) & (k <= '9'))
 				{
@@ -25,7 +25,7 @@ int main(void)
 					if ((i + j + k) < 168)
 					{
 						putchar(',');
-						putchar(' ')
+						putchar(' ');
 					}
 				}
 			}
