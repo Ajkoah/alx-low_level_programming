@@ -2,10 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point
- * Description: prints alphabet in lowercase
- * Return: 0 .
+ * main- Entry point
+ * Description: Lowercase alphabets
+ * Return: 0 success
  */
+
 int main(void)
 {
 	char letter = 'a';
@@ -15,6 +16,6 @@ int main(void)
 		putchar(letter);
 		letter++;
 	}
-	putchar('\n);
+	putchar('\n');
 	return (0);
 }
