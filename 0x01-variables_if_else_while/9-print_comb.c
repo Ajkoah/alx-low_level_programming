@@ -6,7 +6,7 @@
  * Description: combination of single digits
  * Return: 0 success
  */
-int main (void)
+int main(void)
 {
 	int num = 0;
 
@@ -16,7 +16,7 @@ int main (void)
 		if (num < 9)
 		{
 			putchar(',');
-			putchar(',');
+			putchar(' ');
 		}
 		num++;
 	}
