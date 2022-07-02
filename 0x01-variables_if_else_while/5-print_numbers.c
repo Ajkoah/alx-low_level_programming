@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main- Entry point 
+ * main- Entry point
  * Description print all single digits of base 10 from 0
  * Return: 0 successs
  */
