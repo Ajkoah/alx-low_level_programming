@@ -5,7 +5,7 @@
  * main -main block
  * Description: print a random number and test whether is
  * is positive, zero, or negative.
- * Return: 0
+ * Return: (0) success
  */
 int main(void)
 {
