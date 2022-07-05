@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * main- Check the code.
+ * _abs - Check the code.
+ * @n:to be checked
  * Return: Always 0.
  */
 int _abs(int n)

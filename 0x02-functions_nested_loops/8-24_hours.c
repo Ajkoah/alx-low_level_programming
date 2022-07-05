@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main- check the code
+ * jack_bauer- check the code
  * print jack bauer minutes
  * Return: Always 0.
  */
