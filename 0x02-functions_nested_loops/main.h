@@ -1,6 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
-#include <stdio.h>
+#include "main.h"
 /**
  * _putchar - writes the character c to stdout.
  * print_alphabet - prints alphabet and returns new line.
