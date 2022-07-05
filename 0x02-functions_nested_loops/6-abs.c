@@ -4,7 +4,7 @@
  * main- Check the code.
  * Return: Always 0.
  */
-int _abs(int)
+int _abs(int n)
 {
 	int n = 1;
 
