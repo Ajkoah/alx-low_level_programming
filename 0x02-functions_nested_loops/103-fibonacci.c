@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main- Entry Point 
- * Description: sum of even fibonacci numbers
- * Return: Always 0 .
+ *main- EntryPoint 
+ *Description: sum of even fibonacci numbers
+ *Return: Always 0 .
  */
 int main(void)
 {
@@ -21,5 +21,5 @@ int main(void)
 		fib2 = fibsum;
 	}
 	printf("%.0f\n", tot_sum);
-	return(0);
+	return (0);
 }
