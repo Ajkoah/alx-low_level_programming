@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-/** 
-  *main - Entry point
+/**
+ *main - Entry point
  *sum ofmultiples of 3 and 5 .
- *Return: Always 0 
+ *Return: Always0. 
  */
 int main(void)
 {
