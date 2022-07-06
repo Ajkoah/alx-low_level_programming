@@ -3,7 +3,7 @@
  * print_times_table - Prints thetime table of the input
  * @n: The value of the times table
  */
- void print_times_table(int n)
+void print_times_table(int n)
 {
 int num, mult, prod;
 
