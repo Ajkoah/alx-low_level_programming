@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main- EntryPoint 
+ * main- EntryPoint
  * Description: sum of even fibonacci numbers
  * Return: Always 0 .
  */
