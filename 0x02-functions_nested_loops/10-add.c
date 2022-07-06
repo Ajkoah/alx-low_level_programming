@@ -1,10 +1,11 @@
 #include "main.h"
 /**
- * main- Entry point
- * add two integers
+ * add- Entry point
+ * @num1: first integers
+ * @num2: secondinteger
  * Return: Always 0
  */
-int add(int num2, int num2)
+int add(int num1, int num2)
 {
 	return (num1 + num2);
 }

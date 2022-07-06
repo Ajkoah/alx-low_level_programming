@@ -1,7 +1,6 @@
 #include "main.h"
  /**
-  * main- Entry point 
-  * times table
+  * print_times_table- Entry point 
   * Return: Always 0.
   */
 void print_times_table(int n)

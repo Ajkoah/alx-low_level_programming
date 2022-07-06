@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main- check the code
+ * times_tables- check the code
  * 9 times table
  * Return: Always 0.
  */
@@ -12,7 +12,7 @@ void times_table(void)
 	{
 		_putchar('0');
 
-		for (mult =1; mult <= 9; mult++)
+		for (mult = 1; mult <= 9; mult++)
 		{
 			_putchar(',');
 			_putchar(' ');
