@@ -3,7 +3,7 @@
 /**
  *main - Entry point
  *sum ofmultiples of 3 and 5 .
- *Return: Always0. 
+ *Return: Always0.
  */
 int main(void)
 {
