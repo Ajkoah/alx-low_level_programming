@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- *main- EntryPoint 
- *Description: sum of even fibonacci numbers
- *Return: Always 0 .
+ * main- EntryPoint 
+ * Description: sum of even fibonacci numbers
+ * Return: Always 0 .
  */
 int main(void)
 {
