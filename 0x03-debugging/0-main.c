@@ -4,13 +4,21 @@
  * main - tests function that prints if integer is positive or negative
  * Return: 0
  */
-
-int  main(void)
+int largest_number(int a, int b, int c)
 {
-	int i;
-
-	i = 0;
-	positive_or_negative(i);
-
-	return (0);
+	int largest;
+	
+	if (a >= b && a >= c)
+	{
+		largest = a;
+	}
+	else if (b >= a && b >= c)
+	{
+		largest = b;
+	}
+	else
+	{
+		largest = c;
+	}
+	return (largest);
 }
