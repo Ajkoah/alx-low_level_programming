@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * void print_line(int n) - function to print a line
+ * print_line- function to print a line
  * @n: numberof times character should be printed
  */
 void print_line(int n)
