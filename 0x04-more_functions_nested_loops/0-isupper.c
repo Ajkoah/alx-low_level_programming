@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - check the code.
- * Return: Always 0.
+ * _isupper - checks for uppercase
+ * @c: value to be checked.
  */ 
 
 int _isupper(int c)
