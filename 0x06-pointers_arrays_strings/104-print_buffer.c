@@ -34,7 +34,7 @@ void print_buffer(char *b, int size)
 				printf(".");
 		}
 		if (byte >= size)
-			contine;
+			continue;
 		printf("\n");
 	}
 	if (size <= 0)
