@@ -1,9 +1,9 @@
 #include "main.h"
 
-/** 
+/**
  * _isalpha - check the code
  * @c: character to be checked
- *  Return: Always 0. 
+ *  Return: Always 0.
  */
 int _isalpha(int c)
 {
