@@ -35,15 +35,15 @@ char *create_xarray(int size)
 {
 	char *array;
 	int index;
-  
+
 	array = malloc(sizeof(char) * size);
 	if (array == NULL)
 		exit(98);
 
 	for (index = 0; index < (size - 1); index++)
-		array[index] = 'x';
-    array[index] = '\0';
-    return (array);
+	array[index] = 'x';
+	array[index] = '\0';
+	return (array);
 }
 
 /**
