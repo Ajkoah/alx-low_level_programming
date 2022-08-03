@@ -7,7 +7,7 @@
  * @size: The size of array.
  * @action: A pointer to the function to be executed.
  */
-rator(int *array, size_t size, void (*action)(int))
+void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	if (array == NULL || action == NULL)
 		return;
