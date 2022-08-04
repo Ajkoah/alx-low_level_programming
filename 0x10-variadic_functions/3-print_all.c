@@ -16,7 +16,7 @@ void print_all(const char * const format, ...);
 void print_char(va_list arg)
 {
 	char letter;
-	
+
 	letter = va_arg(arg, int);
 	printf("%c", letter);
 }
