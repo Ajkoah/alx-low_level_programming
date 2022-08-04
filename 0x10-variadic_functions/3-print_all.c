@@ -16,6 +16,7 @@ void print_all(const char * const format, ...);
 void print_char(va_list arg)
 {
 	char letter;
+	
 	letter = va_arg(arg, int);
 	printf("%c", letter);
 }
@@ -32,9 +33,9 @@ void print_char(va_list arg)
  * @arg: A list of arguments pointing to
  * the integer to be printed.
  */
- void print_int(va_list arg)
- {
- 	int num;
+void print_int(va_list arg)
+{
+	int num;
 
 	num = va_arg(arg, int);
 	printf("%d", num);
