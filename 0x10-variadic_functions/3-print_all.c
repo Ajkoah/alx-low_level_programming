@@ -20,13 +20,6 @@ void print_char(va_list arg)
 	letter = va_arg(arg, int);
 	printf("%c", letter);
 }
-void print_char(va_list arg)
-{
-	char letter;
-
-	letter = va_arg(arg, int);
-	printf("%c", letter);
-}
 
 /**
  * print_int - Prints an int.
